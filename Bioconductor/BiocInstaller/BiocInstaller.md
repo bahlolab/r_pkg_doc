@@ -20,12 +20,10 @@ search()
 ```
 
 ```
-##  [1] ".GlobalEnv"            "package:BiocInstaller"
-##  [3] "tools:rstudio"         "package:stats"        
-##  [5] "package:graphics"      "package:grDevices"    
-##  [7] "package:utils"         "package:datasets"     
-##  [9] "package:methods"       "Autoloads"            
-## [11] "package:base"
+##  [1] ".GlobalEnv"        "package:stats"     "package:graphics" 
+##  [4] "package:grDevices" "package:utils"     "package:datasets" 
+##  [7] "package:vimcom"    "package:setwidth"  "package:colorout" 
+## [10] "package:methods"   "Autoloads"         "package:base"
 ```
 
 ```r
@@ -42,11 +40,12 @@ search()
 
 ```
 ##  [1] ".GlobalEnv"            "package:BiocInstaller"
-##  [3] "tools:rstudio"         "package:stats"        
-##  [5] "package:graphics"      "package:grDevices"    
-##  [7] "package:utils"         "package:datasets"     
-##  [9] "package:methods"       "Autoloads"            
-## [11] "package:base"
+##  [3] "package:stats"         "package:graphics"     
+##  [5] "package:grDevices"     "package:utils"        
+##  [7] "package:datasets"      "package:vimcom"       
+##  [9] "package:setwidth"      "package:colorout"     
+## [11] "package:methods"       "Autoloads"            
+## [13] "package:base"
 ```
 
 ### biocLite
@@ -111,9 +110,9 @@ bioc_pkgs[sample(length(bioc_pkgs), 10)]
 ```
 
 ```
-##  [1] "HiTC"         "methylPipe"   "Repitools"    "Vega"        
-##  [5] "altcdfenvs"   "adSplit"      "NetPathMiner" "seqCNA"      
-##  [9] "CoCiteStats"  "plw"
+##  [1] "ArrayExpress" "proteoQC"     "bgafun"       "GSEABase"    
+##  [5] "switchBox"    "Category"     "InPAS"        "gpls"        
+##  [9] "AtlasRDF"     "siggenes"
 ```
 
 
